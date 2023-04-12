@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/dc8169ca6d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#artwork">Artwork</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick = "closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick = "openmenu()"></i>
+            </nav>
+        </div>
+        <div class="header-text">
+            <p>Software Developer</p>
+            <h1>Hello! I'm <span>Abhishek</span><br> Wasnik from Nagpur</h1>
+        </div>
+    </div>
+
+<!----------------------about------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Pic Y.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-tittle">About Me</h1>
+                    <p>A dedicated tech-savvy individual, searching for a challenging role at aprogressive organisation that offers immense 
+                        growth opportunities to implement my knowledge and skills to contribute to the success of the organisation.<br>
+                        I have completed my graduation as B.Sc.(Computer Science) & pursuing my Post graduation as Master in Computer Applications (MCA) </p>
+                        <div class="tab-tittles">
+                            <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Python</span><br> Developing websites/Software,Data Analysis,Data Visualization.</li>
+                                <li><span>Django</span><br>Python web framework for secure and maintainable websites.</li>
+                                <li><span>Javascript</span><br>Web Development,Web Applications,Presentations.</li>
+                                <li><span>HTML/CSS</span><br>Web Development</li>
+                                <li><span>SQL</span><br>Database Language</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>SellerDrive (Nagpur)</span><br>(Aug,2021–April,2022)<br>Here I was managing Techincal reports & Account Health
+                                    Management (AHM) on Amazon Seller Central</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>MCA (2021-2023) </span><br>JSPM's JSCOE, Hadapsar,Pune<br>8.7 CGPA</li>
+                                <li><span>B.Sc (2017-2021) </span><br>SFS College, Seminary Hills, Nagpur<br>7.5 CGPA</li>
+                                <li><span>HSC (2014-2016)</span><br>Dharmaraj Jr College Kanhan, Nagpur (Maharashtra State Board)<br>55%</li>
+                                <li><span>SSC (2014)</span><br>B.K.C.P School Kanhan, Nagpur (Maharashtra State Board)<br>72%</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!----------------------portfolio------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-tittle">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/portfolio1.jpg">
+                <div class="layer">
+                <h3>Sneaker Maniac( E-com Sneakers Store)</h3>
+                <p>Sneaker Maniac is an e-commerce website that allows people <br> 
+                    to buy and sell sneakers online, user can explore wide range of<br>
+                    catalogue with hazzel free experience, with 100% original quality </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+            <div class="work">
+                <img src="images/portfolio2.jpg">
+                <div class="layer">
+                <h3>Allison Burgers( Online Food Ordering System)</h3>
+                <p>Allison Burgers is an online food ordering system allows<br>
+                    restaurant business to accept and manage orders placed <br>
+                    online for delivery or takeaway. Customers  browse a digital<br>
+                    menu, either on an app or website and place and pay for their<br>
+                    order, online. </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+            <div class="work">
+                <img src="images/portfolio3.jpg">
+                <div class="layer">
+                <h3>Annual Sales Report</h3>
+                <p>Representing annual sales report pictorially is Data Visualization.<br>
+                    To perform data visualization in python, we can use various python<br> 
+                    data visualization modules,in this project Plotly is used for <br>
+                    data visualization.  </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+             </div>
+         </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>  
+</div>
+<!----------------------My Artwork------------------->
+
+<div id="artwork">
+    <div class="container">
+        <h1 class="sub-tittle">My Artwork</h1>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="images/img1.jpg" >
+            </div>
+            <div class="col-md-3">
+                <img src="images/img2.jpg" >
+            </div>
+            <div class="col-md-3">
+                <img src="images/img3.jpg" >
+            </div>
+            <div class="col-md-3">
+                <img src="images/img4.jpg" >
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <img src="images/img5.jpg" >
+            </div>
+            <div class="col-md-3">
+                <img src="images/img6.jpg" >
+            </div>
+            <div class="col-md-3">
+                <img src="images/img7.jpg" >
+            </div>
+            <div class="col-md-3">
+                <img src="images/img8.jpg" >
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------------Contact Me------------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>abhishewasnik07@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+918888584718</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/abhishekwasnik7/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://instagram.com/abhishekwasnik7?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/AbhishekWasnik7?mibextid=ZbWKwL"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://twitter.com/abhiishekwasnik?t=5jHW4RgpXMun_qUe2WeJDA&s=08"><i class="fa-brands fa-square-twitter"></i></a>
+                </div>
+                <a href="images/ABHISHEK.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>   
+    </div>
+    <div class="copyright">
+        <p>Made with <i class="fa-solid fa-heart"></i> by Abhishek Wasnik</p>
+    </div>
+</div>
+
+
+
+
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu() {
+        sidemenu.style.right = "0px";
+    }
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzKcrCjffmhHA9TC8-ce6uA-2C5RDe4Zk4fLwHx_N4FciNcEkSYbyimYnhng_YoDRG1/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
